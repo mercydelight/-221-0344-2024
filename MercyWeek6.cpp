@@ -1,12 +1,12 @@
 #include <iostream>
-using namespace std;
+#using namespace std;
 
 int main() {
     int arr[20], odd[20], even[20];
     int o = 0, e = 0;
 
     for (int i = 0; i < 20; i++) {
-        arr[i] = (i + 1) * 3; // values between 1–100
+        arr[i] = (i + 1) * 3; // values between 1â€“100
 
         if (arr[i] % 2 == 0)
             even[e++] = arr[i];
@@ -22,3 +22,4 @@ int main() {
 
     return 0;
 }
+
