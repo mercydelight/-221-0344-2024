@@ -1,5 +1,5 @@
 #include <iostream>
-using namespace std;
+#using namespace std;
 
 void largestFraction(double &a, double &b, double &c, double &largest) {
     largest = a;
@@ -14,3 +14,4 @@ int main() {
     return 0;
     }
 };
+
